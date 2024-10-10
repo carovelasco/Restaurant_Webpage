@@ -10,8 +10,29 @@ body {
     justify-content: center;
 }
 .overlay {
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 100px 450px 100px 200px; 
+    background-color: rgba(255, 255, 255, 0.564);
+    padding: 100px 400px 100px 200px; 
     border-radius: 15px;
-    text-align: center;
+    
+}
+.navb{
+    font-family: 'Dancing Script';
+    font-size: 20px; /* Puedes ajustar el tamaño */
+
+}
+.heading{
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    text-align: center;   
+    font-family: 'Playball', cursive;
+    font-size: 66px;
+    color: #333;
+
+}
+.subheading{
+    font-family: 'Arial', cursive;
+    font-size: 16px;
+    color: #333;
+
 }

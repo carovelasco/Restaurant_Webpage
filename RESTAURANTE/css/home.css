@@ -36,3 +36,33 @@ body {
     color: #333;
 
 }
+.carousel-item {
+    height: 100vh; /* Toda la pantalla */
+    background-size: cover;
+    background-position: center;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+  }
+  .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  .accordion-button:not(.collapsed) {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000;
+}
+.accordion-button {
+  background-color:  rgba(246, 249, 240,0.5);
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.menu-container {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

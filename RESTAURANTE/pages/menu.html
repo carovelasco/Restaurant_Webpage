@@ -74,17 +74,21 @@
       </nav>
       <br><br>
       <section class="container mt-5 pt-5">
-        <div class="menu-container p-4 rounded" style="background-color: rgb(246, 249, 240, 0.7);">
-          <h2 class="text-center mb-4">Nuestro Menú</h2>
-          <div class="accordion" id="menuAccordion">
-    
-            <!-- Desayunos Section -->
-            <div class="accordion-item bg-transparent">
+        <div class="menu-container p-4 rounded" style="background-color: rgba(246, 249, 240, 0.95);">
+          <h2 class="text-center mb-4" style="font-size: 60px; font-family: 'Cinzel', serif; font-weight: bold; color:rgba(10, 4, 61, 0.9)">Nuestro Menú</h2>
+          <div class="menu-nav text-center">
+            <a href="#desayunos" style="font-size: 20px; font-family: 'Cinzel', serif;">Desayunos</a>
+            <a href="#almuerzos" style="font-size: 20px; font-family: 'Cinzel', serif;">Almuerzos</a>
+            <a href="#bebidas" style="font-size: 20px; font-family: 'Cinzel', serif;">Bebidas</a>
+        </div>
+            <div id="desayunos" class="menu-section">
+              <br>
               <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#desayunos" aria-expanded="true" aria-controls="desayunos">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#desayunos" aria-expanded="true" aria-controls="desayunos" style="font-size: 20px; font-family: 'Cinzel', serif;">
                   Desayunos
                 </button>
               </h2>
+              <br><br>
               <div id="desayunos" class="accordion-collapse collapse show" data-bs-parent="#menuAccordion">
                 <div class="accordion-body">
                   <div class="row">
@@ -168,15 +172,16 @@
                   </div>
                 </div>
               </div>
+<br><br>
 
-
-              <div class="accordion-item bg-transparent">
+              <div id="almuerzos" class="menu-section">
                 <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#almuerzos" aria-expanded="false" aria-controls="almuerzos">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#almuerzos" aria-expanded="true" aria-controls="almuerzos" style="font-size: 25px; font-family: 'Cinzel', serif;">
                     Almuerzos
                   </button>
                 </h2>
-                <div id="almuerzos" class="accordion-collapse collapse" data-bs-parent="#menuAccordion">
+                <br><br>
+                <div id="almuerzos" class="accordion-collapse collapse show" data-bs-parent="#menuAccordion">
                   <div class="accordion-body">
                     <div class="row">
 
@@ -235,17 +240,17 @@
                           </div>
                         </div>
                     </div>
-                </div>   
             </div>    
- 
+ <br><br>
                 
-                <div class="accordion-item bg-transparent">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bebidas" aria-expanded="false" aria-controls="bebidas">
-                        Bebidas
-                      </button>
-                    </h2>
-                    <div id="bebidas" class="accordion-collapse collapse" data-bs-parent="#menuAccordion">
+                <div id="bebidas" class="menu-section">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#bebidas" aria-expanded="true" aria-controls="bebidas" style="font-size: 25px; font-family: 'Cinzel', serif; ">
+                      Bebidas
+                    </button>
+                  </h2>
+                  <br><br>
+                    <div id="bebidas" class="accordion-collapse collapse show" data-bs-parent="#menuAccordion">
                       <div class="accordion-body">
                         <div class="row">
                           <div class="col-md-6 mb-3">

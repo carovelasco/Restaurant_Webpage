@@ -1,0 +1,53 @@
+.title-box {
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    padding: 40px;
+    font-size: 2.5rem;
+    color: white;
+    white-space: nowrap; 
+    width: 100%;
+}
+
+.content-box {
+    background-color:rgba(19, 40, 120, 0.99);
+    padding: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Lora', cursive;
+    font-size: 18px;
+    color:aliceblue;
+    flex: 1; /* Para que el texto ocupe todo el espacio disponible */
+    text-align: justify;
+}
+
+/* Animación personalizada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animate {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Sección de imagen y texto alineados */
+.main-content {
+    display: flex;
+    align-items: stretch; /* Asegura que tanto el div como la imagen tengan el mismo alto */
+    gap: 0px;
+}
+
+.image-container img {
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin deformarse */
+    height: 100%; /* Hace que la imagen tenga el mismo alto que el contenedor de texto */
+    width: 400px; /* Limita el ancho máximo de la imagen */
+}
+
+.content-text {
+    flex: 1; /* Hace que el texto ocupe el espacio disponible */
+}

@@ -15,7 +15,7 @@ body {
 }
 .overlay {
     background-color: rgb(246, 249, 240);
-    padding: 100px 400px ;
+    padding: 70px 400px ;
     border-radius: 15px;
     align-self: center;
     align-content: center;
@@ -41,8 +41,8 @@ h1 {
     text-align: center;
 }
 .overlay-title {
-    background-color: rgba(35, 59, 159, 0.99);
-    padding: 100px 560px ; 
+    background-color: rgba(19, 40, 120, 0.99);
+    padding: 60px 540px ; 
     align-self: center;
     align-content: center;
     align-items: center;
@@ -50,6 +50,22 @@ h1 {
 }
 
 .decorative-title {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+.overlay-quote {
+    background-color: rgba(19, 40, 120);
+    padding: 60px 245px ; 
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.decorative-quote {
     position: relative;
     display: inline-block;
     text-align: center;
@@ -72,4 +88,30 @@ left: -170px; /* Ajusta la distancia de la línea a la izquierda */
 
 .decorative-title::after {
 right: -170px; /* Ajusta la distancia de la línea a la derecha */
+}
+
+.content-text {
+    display: flex; /* Usar flexbox para alinear el texto */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    height: 100%; /* Asegurarse de que ocupe todo el espacio del contenedor */
+}
+.content-box {
+    background-color:rgba(19, 40, 120, 0.99);
+    padding: 120px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Lora', cursive;
+    font-size: 18px;
+    color:aliceblue;
+    justify-content: center;
+    flex: 1; 
+    text-align: center;
+}
+
+.highlight {
+    border-bottom: 4px solid rgba(19, 40, 120, 0.99); /* Línea inferior */
+    padding-bottom: 5px; /* Espaciado debajo del texto */
+    color: rgba(19, 40, 120, 0.99); /* Color del texto */
+    font-size: 60px; /* Tamaño del texto */
+    font-weight: semi-bold; /* Grosor de la fuente */
 }

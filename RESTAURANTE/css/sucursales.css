@@ -1,0 +1,64 @@
+body {
+    padding-top: 50px; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title{
+    text-align: center;
+}
+
+.mapa{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.map{
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.map-title {
+    position: absolute;
+    top: 225px;
+    right: 300px; 
+    z-index: 10;
+}
+
+  
+.map-title::before, .map-title::after {
+content: "";
+position: absolute;
+width: 60px; /* Ajusta el largo de las líneas */
+height: 2px; /* Ajusta el grosor de las líneas */
+background-color: rgba(17, 16, 16, 0.9); /* Color de las líneas */
+top: 50%;
+transform: translateY(-50%);
+}
+
+.map-title::before {
+left: -70px; /* Ajusta la distancia de la línea a la izquierda */
+}
+
+.map-title::after {
+right: -70px; /* Ajusta la distancia de la línea a la derecha */
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+.overlay {
+    background-color: rgb(246, 249, 240);
+    padding: 100px 200px 100px 200px; 
+    border-radius: 15px;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}

@@ -1,0 +1,75 @@
+body {
+    padding-top: 50px; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.container {
+    position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+.overlay {
+    background-color: rgb(246, 249, 240);
+    padding: 100px 400px ;
+    border-radius: 15px;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    
+}
+.navb{
+    font-family: 'Dancing Script';
+    font-size: 20px;
+
+}
+
+h1 {
+    text-align: center;
+
+}
+.container-title {
+    position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+.overlay-title {
+    background-color: rgba(35, 59, 159, 0.99);
+    padding: 100px 560px ; 
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.decorative-title {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+.decorative-title::before, .decorative-title::after {
+content: "";
+position: absolute;
+width: 130px; /* Ajusta el largo de las líneas */
+height: 2px; /* Ajusta el grosor de las líneas */
+background-color: rgba(255, 255, 255, 0.9); /* Color de las líneas */
+top: 50%;
+transform: translateY(-50%);
+}
+
+.decorative-title::before {
+left: -170px; /* Ajusta la distancia de la línea a la izquierda */
+}
+
+.decorative-title::after {
+right: -170px; /* Ajusta la distancia de la línea a la derecha */
+}

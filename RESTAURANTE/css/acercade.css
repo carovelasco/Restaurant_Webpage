@@ -75,26 +75,26 @@ h1 {
 .decorative-title::before, .decorative-title::after {
 content: "";
 position: absolute;
-width: 130px; /* Ajusta el largo de las líneas */
-height: 2px; /* Ajusta el grosor de las líneas */
-background-color: rgba(255, 255, 255, 0.9); /* Color de las líneas */
+width: 130px;
+height: 2px;
+background-color: rgba(255, 255, 255, 0.9);
 top: 50%;
 transform: translateY(-50%);
 }
 
 .decorative-title::before {
-left: -170px; /* Ajusta la distancia de la línea a la izquierda */
+left: -170px; 
 }
 
 .decorative-title::after {
-right: -170px; /* Ajusta la distancia de la línea a la derecha */
+right: -170px;
 }
 
 .content-text {
-    display: flex; /* Usar flexbox para alinear el texto */
-    align-items: center; /* Centrar verticalmente */
-    justify-content: center; /* Centrar horizontalmente */
-    height: 100%; /* Asegurarse de que ocupe todo el espacio del contenedor */
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    height: 100%; 
 }
 .content-box {
     background-color:rgba(19, 40, 120, 0.99);
@@ -109,9 +109,24 @@ right: -170px; /* Ajusta la distancia de la línea a la derecha */
 }
 
 .highlight {
-    border-bottom: 4px solid rgba(19, 40, 120, 0.99); /* Línea inferior */
-    padding-bottom: 5px; /* Espaciado debajo del texto */
-    color: rgba(19, 40, 120, 0.99); /* Color del texto */
-    font-size: 60px; /* Tamaño del texto */
-    font-weight: semi-bold; /* Grosor de la fuente */
+    border-bottom: 4px solid rgba(19, 40, 120, 0.99); 
+    padding-bottom: 5px; 
+    color: rgba(19, 40, 120, 0.99);
+    font-size: 60px; 
+    font-weight: semi-bold; 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animate {
+    animation: fadeIn 1.5s ease-in-out;
 }

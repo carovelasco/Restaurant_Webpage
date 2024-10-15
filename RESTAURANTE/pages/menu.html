@@ -4,7 +4,8 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Anlly Brunch </title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href=css/home.css>
+    <link rel="icon" href="../assets/img/logo.jpg" type="image/jpg">
+    <link rel='stylesheet' type='text/css' media='screen' href=../css/home.css>
     <link rel="stylesheet" href ="css/home.css>">
     <script src='main.js'></script>
     <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
@@ -16,82 +17,87 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
     crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+    <style>
+      h5{
+        font-weight: bold;
+      }
+
+    </style>
 
 
 </head>
 <body style="background-image: url('../assets/img/prueba2.jpg'); background-size: contain; background-repeat: repeat; background-position: center;">
-  <nav class="navbar fixed-top" style="background-color: rgb(246, 249, 240);"  >
-        <div class="container-fluid" >
-          <a class="navb" href="index.html">
-          <img src="../assets/img/logo.jpg" alt="Anly Brunch" style="height: 70px;"> 
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="background-color: rgb(246, 249, 240);">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="flex-grow: 1; text-align: center;"> 
-                <img src="../assets/img/logo.jpg" alt="Anly Brunch" style="height: 200px;" > 
-              </h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pages/Historia.html">Historia</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="pages/Contacto.html">Contacto</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="pages/AcercaDe.html">Acerca de</a>
-                  </li>
+  <nav class="navbar fixed-top" style="background-color: rgb(246, 249, 240); font-family: 'Cinzel', serif; font-size: 20px;"  >
+    <div class="container-fluid" >
+      <a class="navb" href="index.html">
+      <img src="../assets/img/logo.jpg" alt="Anly Brunch" style="height: 70px;"> 
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="background-color: rgb(246, 249, 240);">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="flex-grow: 1; text-align: center;"> 
+            <img src="../assets/img/logo.jpg" alt="Anly Brunch" style="height: 200px;" > 
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Historia.html">Historia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="AcercaDe.html">Acerca de</a>
+              </li>
 
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="pages/Sucursales.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Sucursales
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Norte</a></li>
-                    <li><a class="dropdown-item" href="#">Sur</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
-              </form>
-            </div>
-          </div>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Sucursales.html">
+                  Sucursales
+                </a>
+              </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
         </div>
-      </nav>
+      </div>
+    </div>
+  </nav>
       <br><br>
-      <section class="container mt-5 pt-5">
-        <div class="menu-container p-4 rounded" style="background-color: rgba(246, 249, 240, 0.95);">
-          <h2 class="text-center mb-4" style="font-size: 60px; font-family: 'Cinzel', serif; font-weight: bold; color:rgba(10, 4, 61, 0.9)">Nuestro Menú</h2>
+      <section class="animate container mt-5 pt-5">
+        <div class="menu-container p-4 rounded" style="background-color: rgba(246, 249, 240, 0.96);">
+          <h2 class="text-center mb-4" style="font-size: 60px; font-family: 'Cinzel', serif; font-weight: bold; color:rgba(19, 40, 120, 0.9)">NUSTRO MENÚ</h2>
+          <hr style="border: none; height: 5px; background-color: rgb(19, 40, 120); opacity: 0.80;">
+          <br>
           <div class="menu-nav text-center">
-            <a href="#desayunos" style="font-size: 20px; font-family: 'Cinzel', serif;">Desayunos</a>
-            <a href="#almuerzos" style="font-size: 20px; font-family: 'Cinzel', serif;">Almuerzos</a>
-            <a href="#bebidas" style="font-size: 20px; font-family: 'Cinzel', serif;">Bebidas</a>
-        </div>
+            <a href="#desayunos" style="font-size: 20px; font-family: 'Cinzel', serif;">DESAYUNOS</a>
+            <a href="#almuerzos" style="font-size: 20px; font-family: 'Cinzel', serif;">ALMUERZOS</a>
+            <a href="#bebidas" style="font-size: 20px; font-family: 'Cinzel', serif;">BEBIDAS</a>
+          </div>
             <div id="desayunos" class="menu-section">
               <br>
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#desayunos" aria-expanded="true" aria-controls="desayunos" style="font-size: 20px; font-family: 'Cinzel', serif;">
+              <h2 style="font-size: 40px; font-family: 'Cinzel', serif; text-align: center; font-weight: bold;">
                   Desayunos
-                </button>
               </h2>
               <br><br>
               <div id="desayunos" class="accordion-collapse collapse show" data-bs-parent="#menuAccordion">
                 <div class="accordion-body">
-                  <div class="row">
+                  <div class="row" style="font-family: 'Lora', serif;">
 
                     <div class="col-md-6 mb-3">
                       <div class="d-flex">
@@ -175,15 +181,14 @@
 <br><br>
 
               <div id="almuerzos" class="menu-section">
-                <h2 class="accordion-header">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#almuerzos" aria-expanded="true" aria-controls="almuerzos" style="font-size: 25px; font-family: 'Cinzel', serif;">
+                <h2 style="font-size: 40px; font-family: 'Cinzel', serif; text-align: center; font-weight: bold;">
                     Almuerzos
-                  </button>
+
                 </h2>
                 <br><br>
                 <div id="almuerzos" class="accordion-collapse collapse show" data-bs-parent="#menuAccordion">
                   <div class="accordion-body">
-                    <div class="row">
+                    <div class="row" style="font-family: 'Lora', serif;">
 
                         <div class="col-md-6 mb-3">
                           <div class="d-flex">
@@ -244,20 +249,20 @@
  <br><br>
                 
                 <div id="bebidas" class="menu-section">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#bebidas" aria-expanded="true" aria-controls="bebidas" style="font-size: 25px; font-family: 'Cinzel', serif; ">
+                  <h2 style="font-size: 40px; font-family: 'Cinzel', serif; text-align: center; font-weight: bold;">
+
                       Bebidas
-                    </button>
+
                   </h2>
                   <br><br>
                     <div id="bebidas" class="accordion-collapse collapse show" data-bs-parent="#menuAccordion">
                       <div class="accordion-body">
-                        <div class="row">
+                        <div class="row" style="font-family: 'Lora', serif;">
                           <div class="col-md-6 mb-3">
                             <div class="d-flex">
                               <img src="../assets/img/index/latte.webp" alt="Café Latte" class="me-3 rounded" style="width: 150px; height: 150px; object-fit: cover;">
                               <div>
-                                <h5>Café Latte - $3.99</h5>
+                                <h5 style="font-weight: bold;">Café Latte - $3.99</h5>
                                 <p>Espresso suave con leche vaporizada y una capa de espuma.</p>
                               </div>
                             </div>
